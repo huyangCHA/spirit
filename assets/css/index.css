@@ -14,7 +14,7 @@
 }
 .banner .box {
   text-align: center;
-  padding: 10em 0em 6em;
+  padding: 10em 0em 20em;
 }
 .banner .box .title {
   font-family: OSLight;
@@ -52,6 +52,11 @@
 .banner .box .more a:hover {
   transform: translateY(-10px);
   box-shadow: 0px 0px 10px 0px #c3c3c3;
+}
+@media screen and (max-width: 1450px) {
+  .banner .box .info {
+    margin-bottom: 12em;
+  }
 }
 @media screen and (max-width: 1050px) and (max-height: 1400px) {
   .banner {
@@ -685,7 +690,7 @@
   font-size: 2em;
   font-weight: bold;
   color: #f2a643;
-  line-height: 50px;
+  line-height: 45px;
 }
 @media screen and (max-width: 780px) and (max-height: 1050px) {
   .work .typelist .list .item {
